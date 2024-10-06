@@ -1,6 +1,6 @@
-"""
-# BUCLE WHILE
+# ------------------- BUCLE WHILE ----------------------
 
+"""
 Estructura de control que itera o repite la ejecuación de una 
 seria de insturcciones tantas veces como sea necesario, 
 hasta que deje cumplirse la condición. 
@@ -10,6 +10,12 @@ while condición:
     actualización de contador
 
 """
+
+'''
+La diferencia con entre while y for es que for tiene un numero finito (Ej: range 5), y while 
+se ejecuta mientras no se cumpla la condición deseada. 
+'''
+
 
 contador = 1
 

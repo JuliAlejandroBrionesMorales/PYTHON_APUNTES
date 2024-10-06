@@ -1,3 +1,5 @@
+# ---------------------- BUCLE FOR ---------------------------
+
 """
 # FOR
 
@@ -38,6 +40,7 @@ for numero_tabla in range (1,11):
     
 else: 
     print ("Tabla finalizada")
+
 
 # Ejemplo para poder cerra un bucle "break"
 

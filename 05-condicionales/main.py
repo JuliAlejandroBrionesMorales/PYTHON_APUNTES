@@ -1,3 +1,5 @@
+# ------------------ METODO IF ------------------------
+
 """
 #Condicional IF
 
@@ -13,7 +15,6 @@ else:
     Otras instrucciones
 
 """
-
 
 #Ejemplo 1
 print ("####### EJEMPLO 1 #######")
@@ -145,7 +146,7 @@ else:
 print ("\n####### EJEMPLO 5 #######")        
 
 """
-Queremos hacer un pequeño script que cuando metamos un número em lo identfique con un 
+Queremos hacer un pequeño script que cuando metamos un número lo identfique con un 
 día determinado de la semana
 
 """
@@ -174,13 +175,13 @@ else:
 
 
 """
-Esto método de "if" es un poco elegible en caso de que queremos comprobar un error o salgo algo mal. 
+Esto método de "if" es un poco ilegible en caso de que queremos comprobar un error o salgo algo mal. 
 Vamos a ver ahora una forma de poder hacerlo más sencillo. Este el método el "ELIF"
 
 """
 
 
-# METODO ELIF
+# ------------------ METODO ELIF ------------------------
 
 if dia == 1: 
     print("Es lunes")
