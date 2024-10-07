@@ -5,7 +5,7 @@
 
 """
 
-# Variable Global
+# --------------- VARIABLES LOCALES VS GLOBALES ---------------------------
 
 print("EJEMEPLO PARA DIFERENCIAR VARIABLES LOCALES Y GLOBALES")
 print("\n")

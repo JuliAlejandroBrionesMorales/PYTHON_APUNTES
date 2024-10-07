@@ -1,5 +1,6 @@
+# ------------------ MODULOS ------------------------
+
 """
-MODULOS
 Son funcionalidades ya hechas para reutilizar.
 En python hay muchos modulos, que los puedes consultar en el siguiente enlace:
 https://docs.python.org/3/library/math.html#module-math 

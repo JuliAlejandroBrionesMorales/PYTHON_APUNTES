@@ -1,9 +1,9 @@
+# --------------- DICCIONARIOS ------------------------
+
 """
-DICCIONARIOS:
 Un tipo de dato que almacena un conjunto de datos. 
 En formato clave > valor.
 Es pareceido a un array asociativo o un objeto json
-
 """
 
 persona = {

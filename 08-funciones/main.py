@@ -1,3 +1,5 @@
+# ------------------ FUNCIONES --------------------------
+
 """
 FUNCIONES:
 Una función es un conjunto de instrucciones agrupadas bajo un nombre
@@ -30,10 +32,7 @@ def muestraNombres():
 
 # Invocar función (ejecutar función)
 muestraNombres()
-muestraNombres()
-muestraNombres()
 
-# Al invocar la función tres veces, nos saldran todos los nombres 3 veces
 
 
 # Ejemplo 2: parámetros
@@ -85,8 +84,10 @@ nombre =input("introduce tu nombre: ")
 edad= int(input("¿Cual es tu edad?:"))
 mostrartuNombre (nombre, edad )
 
-# Todos los "input" son "str" cuando los pones, por lo que es necesario transformarlos en caso de 
-# poner numeros 
+'''
+Cuando creamos un "input" siempre es del tipo "str", por lo que si queremos un valor numérico, 
+es necesario que lo transformememos a int.
+'''
 
 print (".........------------------...........")
 

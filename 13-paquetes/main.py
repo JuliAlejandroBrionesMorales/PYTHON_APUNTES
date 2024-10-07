@@ -1,5 +1,6 @@
+# ------------------ PAQUETES -------------------------
+
 """
-PAQUETES
 Un paquete es un conjunto de modulos.
 Por ejemplo si queremos hacer un programa, podemos crear diferentes paquetes con los modulos necesarios para poder 
 hacer el programa.

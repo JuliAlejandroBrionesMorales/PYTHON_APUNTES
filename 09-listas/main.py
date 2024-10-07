@@ -1,5 +1,6 @@
+# ------------------ LISTAS (array) -------------------------------
+
 """
-LISTAS (array)
 Son colecciones o conjuntos de datos/valores, bajo un único nombre.
 Para acceder a esos valores podemos usar un indice númerico.
 """
@@ -65,7 +66,8 @@ nueva_pelicula = ""
 while nueva_pelicula != "parar":
     nueva_pelicula = input("Introduce la nueva pelicula: ")
     if nueva_pelicula != "parar":
-      peliculas.append(nueva_pelicula) # con esto preguntamos al usuario peliculas para poder meterla en la lista peliculas
+      peliculas.append(nueva_pelicula) 
+    # Este bucle pregunta al usuario peliculas sin parar hasta que diga parar
 
 
 print("\n ************ LISTADO PELICULAS ************ ")
@@ -95,8 +97,8 @@ contactos = [
       ]
 
 print (contactos) # mostramos lista entera
-print(contactos [1]) #mostramos datos de luis
-print(contactos [1][1]) #mostramos solo correo de luis
+print(contactos [1]) #mostramos datos de luis (nombres y correo)
+print(contactos [1][1]) #aqui solo se muestra el correo de luis
 print("\n")
 
 for contacto in contactos:
