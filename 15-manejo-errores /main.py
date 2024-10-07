@@ -1,3 +1,5 @@
+# ---------------- MANEJO DE ERRORES --------------------
+
 # Captura excepciones y manejar errores de código
 # susceptibles a fallos/errores
 
@@ -30,7 +32,7 @@ except Exception as e:
     print("Ha ocurrido un error: ", type(e).__name__)
 """
 
-
+# -------------- EXCEPCIONES PERSONALIZADAS ------------------------
 # Excepciones personalizadas o lanzar excepción
 try:
     nombre = input("Introduce el nombre: ")
@@ -39,7 +41,7 @@ try:
     if edad < 5 or edad > 110:
         raise ValueError("La edad introducida no es real")
     elif len(nombre)<= 1:
-        raise ValueError("El nom bre no está completo")
+        raise ValueError("El nombre no está completo")
     else: 
         print(f"Bienvenido al Master en Python {nombre} ")
 except ValueError:

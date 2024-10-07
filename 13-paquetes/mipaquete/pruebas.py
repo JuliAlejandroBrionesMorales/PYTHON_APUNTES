@@ -1,2 +1,2 @@
-def probando():
-    print("Esto es una prueba de un módulo dentro de un paquete")
+def probando ():
+    print('Esto es la prueba dde un modulo dentro de un paquete.')

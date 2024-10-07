@@ -1,1 +1,2 @@
-# Programacion orientada a objetos (POO o OOP)
+# ----------- PROGRAMACION ORIENTADA A OBJETOS -----------------------
+

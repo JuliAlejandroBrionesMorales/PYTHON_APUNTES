@@ -1,2 +1,2 @@
-def nombreCompleto(nombre, apellidos):
-    print(f"{nombre} {apellidos}")
+def nombreCompleto (nombre, apellido):
+    print(f'{nombre} {apellido}')
