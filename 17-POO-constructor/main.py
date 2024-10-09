@@ -9,3 +9,21 @@ print(carro.getInfo())
 print(carro1.getInfo())
 print(carro2.getInfo())
 print(carro3.getInfo())
+
+
+# ------------------ DETECTAR TIPADO --------------------
+carro3 = 'Aleatorio'
+if type (carro3) == Coche:
+    print("Es un objeto correcto!!")
+else:
+    print("No es un objeto")
+    
+
+# ------------------ VISIBILIDAD --------------------
+'''
+Para poder visualizar un atributo privado, tenemos que crear una función de Get
+para poder sacar este atributo privado como un atributo de la clase.
+'''
+print(carro.soy_publico)
+#print(carro.__soy_privado)
+print(carro.getPrivado())
