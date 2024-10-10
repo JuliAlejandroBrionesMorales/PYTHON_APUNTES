@@ -4,8 +4,6 @@ Es la posibilidad de compartir atributos y métodos entre clases. Y que
 diferentes clases hereden  de otras. 
 '''
 
-from hashlib import algorithms_guaranteed
-
 
 class Persona:
     '''
@@ -57,7 +55,7 @@ class Informático (Persona):
         self.lenguajes = "HTML, CSS, JavaScript, PHP"
         self.experiencia = 5
         
-    def lenguajes(self):
+    def getLenguajes(self):
         return self.lenguajes
     
     def aprender(self, lenguajes):
@@ -69,3 +67,14 @@ class Informático (Persona):
     
     def repararPC (self):
         return "He reparado tu ordenador"
+    
+
+class TecnicoRedes (Informático):
+    
+    def __init__(self):
+        super().__init__() # super init lo utilizamos cuando queremos llevar un constructor de una clase a otra, ya que el constructor es único.
+        self.auditorRedes = 'experto'
+        self.experienciaRedes = 15
+            
+    def auditorias (self):
+        return "Estoy auditando una red"        
